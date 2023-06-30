@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 60%;
+    margin: auto;
+}
+
+div.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+    background: #F5F5F5;
+    height: 60px;
+}
+
+.top img {
+    width: 200px;
+    height: 50px;
+}
+
+
+
+
+table {
+    width: 100%;
+}
+
+.table1 caption {
+    margin: 10px;
+    font-weight: bold;
+}
+
+.table1 th {
+    background: url(../img/top_banner.jpg) no-repeat;
+    background-size: contain;
+    height: 535px;
+}
+
+
+
+.table1 .l2 td:nth-of-type(1) {
+    background: url(../img/small1.jpg) no-repeat;
+    background-size: contain;
+    height: 410px;
+}
+
+.table1 .l2 td:nth-of-type(2) {
+    background: url(../img/small2.jpg) no-repeat;
+    background-size: contain;
+}
+
+
+.l3 td {
+    width: 50%;
+}
+
+
+
+.table2 tr th {
+    height: 480px;
+    width: 33%;
+}
+
+.table2 tr th:nth-of-type(1) {
+    background: url(../img/prod.jpg) no-repeat;
+    background-size: contain;
+}
+
+.table2 tr th:nth-of-type(2) {
+    background: url(../img/prod2.jpg) no-repeat;
+    background-size: contain;
+}
+
+.table2 tr th:nth-of-type(3) {
+    background: url(../img/prod3.jpg) no-repeat;
+    background-size: contain;
+}
+
+.table2 .l3 td {
+    background: url(../img/bt_banner.jpg) no-repeat;
+    background-size: contain;
+    height: 550px;
+}
+
+
+.l4 td img{
+    width: 130px;
+    text-align: center;
+    margin: 20px;
+}
+
+.l4 td{
+    text-align: center;
+}

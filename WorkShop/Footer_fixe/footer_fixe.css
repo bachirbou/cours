@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+.conteneur{
+    min-height: 100%;
+}
+
+header{
+    height: 100px;
+    background-color: pink;
+}
+
+footer{
+    height: 100px;
+    position: fixed;
+    /* position: fixed; ==> sert a placer le contenue en bas de la page*/
+    width: 100%;
+    bottom: 0;
+    background-color: red;
+}

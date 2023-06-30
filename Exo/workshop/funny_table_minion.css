@@ -1,0 +1,45 @@
+tbody{
+    padding: 200px;
+}
+
+tr,td{
+    border: 1px solid #000;
+}
+
+td{
+    width: 30px;
+    height: 30px;
+    border: 1px solid darkgray;
+}
+
+table{
+    margin: auto;
+    border-collapse: collapse;
+}
+
+.b{
+    background: white;
+}
+
+.j{
+    background: yellow;
+}
+
+.g{
+    background: gray;
+}
+
+.n{
+    background: black;
+}
+
+.bl{
+    background: blue;
+}
+
+.sol{
+    background: green;
+}
+img{
+    width: 50%;
+}

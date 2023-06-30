@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100&family=Caveat+Brush&family=Cormorant+Garamond:wght@300&family=Lora&family=Pacifico&family=Shadows+Into+Light&display=swap');
+
+.container{
+    margin: 0px;
+}
+
+
+/* haut de la page */
+header{
+    background-image: url(../img/woddPlank.jpg);
+    height: 900px;
+    display: flex;
+    justify-content: space-between;
+    font-family: "Caveat Brush", cursive;
+}
+
+
+
+/* TITRE */
+h2{
+    margin-bottom: 40px;
+    font-family: "Caveat Brush", cursive;
+}
+
+.titre{
+    margin: 10px 50px 0 50px;
+    font-size: 1.5rem;
+}
+/* ------- */
+
+
+/* E surelever + _ en desous */
+h2 span {
+    font-size: 25px;
+    display: inline;
+    vertical-align: top;
+    position: relative;
+}
+
+h2 span:after {
+    top: 10px;
+    content: "-";
+    position: absolute;
+    left: 0;
+}
+/* ------------ */
+
+
+/* border red */
+hr.red{
+    margin-top: 0;
+    width: 50px;
+    height: 13px;
+    background-color: #E53F6F;
+    position: relative;
+    top: -27px;
+}
+
+
+
+/* NAV BAR */
+nav{
+    display: inline-block;
+    display: flex;
+    margin: 25px;
+}
+
+nav ul li {
+    /* dispose les items de la liste à la ligne */
+    display: inline;
+    /* retire les puces du a la liste (ul>li)*/
+    list-style: none;
+    /* espaces les "li" */
+    margin: auto 1em;
+}
+
+ul li a {
+    /* retire le soulignement des "liens" (a) */
+    text-decoration: none;
+    color: black;
+    font-size: 1.6rem;
+    /* augmente l'épaisseur de la typo à 500 */
+    font-weight: bold;
+}
+/* ------------- */
+
+
+
+
+
+/* placement du logo */
+.logo{
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: 350px;
+    bottom: 100px;
+}
+
+.cerf{
+    position: relative;
+    z-index: 2;
+}
+
+.triangle {
+    display: inline-block;
+    height: 0;
+    width: 0;
+    border-top: 250px solid #E53F6F;
+    border-left: 250px solid transparent;
+    position: absolute;
+    right: 30px;
+    bottom: 320px;
+    z-index: 0;
+}
+/* ------- */
+
+
+
+.fleche{
+    display: flex;
+    align-items: end;
+    font-size: 4rem;
+    position: relative;
+    right: 145px;
+    color: #E53F6F;
+    margin-bottom: 40px;
+}
+
+
+
+/* debut des "sections" + mises en page */
+.ligne1{
+    /* width: 100%; */
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* taille des 3 sections */
+.story{
+    height: 743px;
+}
+
+.fare{
+    height: 884px;
+}
+
+.local{
+    height: 800px;
+}
+/* -------- */
+
+/* les textes dans les div "ligne1" */
+.text{
+    width: 400px;
+    margin: 70px;
+    text-align: center;
+    margin: auto;
+}
+
+h3{
+    font-size: 2.6rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+h4{
+    font-size: 20px;
+    color: #E53F6F;
+}
+
+p{
+    font-size: 15px;
+}
+
+.img img{
+    width: 1200px;
+}
+
+
+/* taille des 2 image d'épices */
+.epice1{
+    width: 300px;
+}
+
+.epice2{
+    width: 200px;
+}
+
+
+
+.lignebas{
+    background-image: url(../img/eggs.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 790px;
+}
+
+
+
+/* bas de la page, footer */
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 700px;
+    background-image: url(../img/pattern.jpg);
+}
+
+/* gauche du footer */
+.footerinfo{
+    text-align: center;
+}
+
+p{
+    text-align: center;
+    margin: 0;
+}
+
+/* droite du footer */
+.logoreso{
+    width: 180px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 30px;
+    color: #E53F6F;
+    margin-right: 60px;
+}
+
+.footerinf{
+    display: flex;
+    height: 240px;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+a:hover{
+    color: #E53F6F;
+}
