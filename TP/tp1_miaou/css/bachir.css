@@ -1,0 +1,19 @@
+*
+{background: rgb(85, 85, 231);}
+
+h1{
+    color: white;
+    text-align: center;
+}
+
+.chat{
+    display: flex;
+    justify-content: center;    
+}
+
+.chat img{
+    margin: 20px;
+}
+.clear{
+    clear: both;
+}
