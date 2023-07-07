@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-shadow: 0  0 15px #000;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+/* ---------- HEADER ---------- */
+/* DIV .TOP */
+header .top{
+    background: darkred;
+    /* height: 150px; */
+    padding: 20px;
+    /* width: 100%; */
+    display: flex;
+    justify-content: space-between;
+}
+
+/* le > premet de prendre que les enft */
+.top>div{
+    background: orange;
+    width: 400px;
+    /*on enleve height: 100px; pour qu'il a la même taille que son frere  */
+
+}
+
+.orange{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.orange div{
+    background: brown;
+    height: 90px;
+    width: 90px;
+    margin: 10px;
+}
+
+/* FIN DIV .TOP */
+
+/* NAV */
+
+header nav ul{
+    width: 100%;
+    display: flex;
+}
+
+header nav ul li{
+    width: 20%;
+    height: 45px;
+    list-style: none;
+    background: chocolate;
+    font-size: 2rem;
+    color: aliceblue;
+
+    display: flex;
+    justify-content: center;
+    /* justify content centre sur l'horizontale */
+    align-items: center;
+    /* align item centre sur la vertical */
+
+}
+/* fin nav */
+/* fin header */
+
+/* dbt container */
+.container{
+    display: flex;
+
+}
+
+.container aside{
+    background: purple;
+    width: 20%;
+
+    display: flex;
+    flex-direction: column;
+    /* change la direction de la ligne en colonnes */
+    align-items: center;
+    /* /!\ le flex direction INVERSE les axe X et Y */
+    justify-content: space-around;
+    /* /!\ le flex direction INVERSE les axe X et Y */    
+}
+
+.container aside div{
+    background: #000;
+    width: 60%;
+    height: 100px;
+    background: pink;
+
+}
+
+.container .aqua{
+    background: aqua;
+    width: 80%;    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.container .aqua div{
+ background: blue;
+ width: 190px;
+ height: 190px;
+ margin: 40px;
+ padding: 40px;
+
+ color: aliceblue;
+ text-align: center;
+  display: flex;
+ /*justify-content: center;*/
+ align-items: center; 
+}
