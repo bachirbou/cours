@@ -1,0 +1,209 @@
+/*var a = 2;
+
+a = a - 1;
+
+console.log(a);   
+
+
+a++;
+
+console.log(a);   
+ 
+
+
+    var b = 8;
+
+console.log(b);   
+
+    b += 2;
+
+console.log(b);       
+
+
+    var c = a + b * b;
+
+console.log(c);       
+
+    var d = a * b + b;
+
+console.log(d);       
+
+    var e = a * (b + b);
+
+    var f = a * b / a;
+
+    var g = b / a * a;
+
+console.log(e);       
+console.log(f);       
+console.log(g);     
+console.log(a);       
+console.log(e);       
+
+
+let prenom = "bachir" ;
+let age = 23 +' ans';
+console.log(prenom);
+console.log(age);
+
+ // let name = prompt("Entrez votre prénom");
+// let age = prompt("Entrez votre âge");
+// console.log(name + age);
+
+var a = 9;
+a += 3;
+console.log(a);
+
+a = 9*3;
+console.log(a);
+
+a = 9-3;
+console.log(a);
+
+a=9/3;
+console.log(a);
+
+console.log(4 + 5);
+
+console.log("4 + 5");
+
+console.log("4" + "5");
+
+var a = 2;
+a -= 1;
+a++;
+var b = 8;
+b += 2;
+var c = a + b * b;
+var d = a * b + b;
+var e = a * (b + b);
+var f = a * b / a;
+var g = b / a * a;
+console.log(a, b, c, d, e, f, g);
+
+var tempCel = 37.1;
+var f = tempCel * 9/5 + 32;
+console.log(f);
+
+var nombre1 = 5;
+var nombre2 = 3;
+var b = nombre1
+nombre1 = nombre2;
+nombre2 = b;
+console.log(nombre1);
+console.log(nombre2);
+
+
+
+var nombre3 = 5;
+var nombre4 = 3;
+
+nombre3-=2;
+nombre4+=2;
+
+console.log(nombre3);
+console.log(nombre4);
+
+// let pokemonDispo="pikachu";
+// if (pokemonDispo === "pikachu"){
+//   alert ("attaque éclair");
+// }
+
+outil1="fourchette";
+outil2="cuillere";
+
+if((outil1 === "fourchette") && (outil2 === "couteau")){
+  console.log("i eat my tajin");
+}
+
+
+ //  let jour = prompt("Quel jours est on ?");
+ // switch (jour) {
+ //    case "lundi":
+ //        console.log(" Demain nous seront Mardi");
+ //        break;
+ //    case "mardi":
+ //        console.log(" Demain nous seront Mercredi");
+ //        break;
+ //    case "mercredi":
+ //        console.log(" Demain nous seront Jeudi");
+ //        break;
+ //    case "jeudi":
+ //        console.log(" Demain nous seront Vendredi");
+ //        break;
+ //    case "vendredi":
+ //        console.log(" Demain nous seront Samedi");
+ //        break;
+ //     case "samedi":
+ //         console.log(" Demain nous seront dimanche");
+ //         break;
+ //     case "dimanche":
+ //         console.log(" Demain nous seront Lundi");
+ //         break;
+ //     default:
+ //         console.log("Je n'ai pas compris !");
+ // }
+
+// let nombre = Number(prompt("Quelle heure est il ? "));
+// if (nombre > 0) {
+//     console.log(nombre + " est positif");
+// }
+// let heure = Number(prompt("Entrez l'heure :"));   
+// if ((heure >= 0) && (heure <= 23)) {
+//     console.log(heure + " heure");
+// }
+// let minute = Number(prompt("Entrez la minute :"));   
+// if ((minute >= 0) && (minute <= 59)) {
+//     console.log(minute + " minute");
+// }
+// let seconde = Number(prompt("Entrez la seconde :"));   
+// if ((seconde >= 0) && (seconde <= 100)) {
+//     console.log("et " + seconde + " seconde");
+// }
+
+/*let moyenne = Number(prompt("Entrez une moyenne de baccalauréat :"));
+if(moyenne < 10){
+  alert("candidat est recalé");
+} else if((moyenne >10) || (moyenne >12)){
+alert("candidat est reçus");
+} else if(moyenne >= 12){
+  alert("candidat est reçus avec une mention");
+}else {
+    alert("Je n'ai pas compris !");
+}
+
+  let jour = moyenne("Quel est ta moyenne ?");
+ switch (moyenne) {
+    case "1":
+        console.log(" candidat est recalé");
+        break;
+    case "2":
+        console.log(" candidat est recalé");
+        break;
+    case "3":
+        console.log(" candidat est recalé");
+        break;
+    case "4":
+        console.log(" candidat est recalé");
+        break;
+    case "5":
+        console.log(" candidat est reçus");
+        break;
+    case "6":
+        console.log(" candidat est reçus avec une mention");
+        break;
+    case "7":
+        console.log(" candidat est reçus avec une mention");
+        break;
+    case "8":
+        console.log(" candidat est reçus avec une mention");
+        break;
+    case "9":
+        console.log(" candidat est reçus avec une mention");
+        break;
+    case "10":
+        console.log(" candidat est reçus avec une mention");
+        break;
+     default:
+         console.log("Je n'ai pas compris !");
+ }
