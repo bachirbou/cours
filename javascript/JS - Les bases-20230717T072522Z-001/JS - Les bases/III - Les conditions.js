@@ -64,6 +64,8 @@ Opérateur     Signification
 
 >=            Supérieur ou égal à
 
+||            OU
+
 */
 
 // ATTENTION à ne pas confondre = ,  ==  et ===

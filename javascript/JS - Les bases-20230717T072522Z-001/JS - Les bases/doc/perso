@@ -1,0 +1,282 @@
+
+// /* 
+// * EXERCICE 3 - les fonctions
+// * En supposant que la fonction JavaScript Math.min() n'existe pas, 
+// * complétez le programme pour que la fonction min() renvoie le plus petit des 
+// * deux nombres passés en paramètres.
+// */
+
+// // Ajoutez votre code ici
+// function min(x){
+//   let calcul = x < x;
+//   return calcul;
+// }
+
+// console.log(min(4.5, 5)); // 4.5
+// console.log(min(19, 9));  // 9
+// console.log(min(1, 1));   // 1
+
+
+
+/* 
+* EXERCICE 3 - les fonctions
+* En supposant que la fonction JavaScript Math.min() n'existe pas, 
+* complétez le programme pour que la fonction min() renvoie le plus petit des 
+* deux nombres passés en paramètres.
+
+function carre(x) {
+    let calcul = x * x;
+    return calcul;
+}
+
+
+// Ajoutez votre code ici
+
+function calculer(x, y, z){
+  let calcul = x + y + z;
+  if (calcul = 4+6){
+    console.log("4+6=10")
+  } else if (2+0){
+        console.log("2-0=0")
+  }else if ("12+0"){
+    console.log("12/0=infinity")
+  }
+  return calcul;
+  let calcul = x - z;
+  let calcul = x * z;
+  let calcul = x / z;
+}
+*/
+
+/*function calculer(x, y, z){
+  let calcul = x + y + z;  
+  return calcul;
+}
+
+console.log(calculer(4, "+", 6));  // 10
+
+
+/*
+console.log(calculer(4, "+", 6));  // 10
+console.log(calculer(4, "-", 6));  // -2
+console.log(calculer(2, "*", 0));  // 0
+console.log(calculer(12, "/", 0)); // Infinity
+
+
+
+
+
+
+function bonjour (){alert("Hello World!");}
+
+bonjour()
+
+
+console.log(whoIsTheBiggest);
+
+
+*/
+
+
+
+
+
+// var numberA = 42; var numberB = 1337; 
+
+// var biggest = whoIsTheBiggest(numberA, numberB); function whoIsTheBiggest(a, b) { }
+
+
+
+
+// function whoIsTheBiggest(a, b) {
+//     if (b > a) {
+//         return b;
+//     } else {
+//         return a;
+//     }
+// }
+
+// // function whoIsTheBiggest (a , b){
+// // if (a<b);
+// // {"a est plus grand que b"} 
+// //   else if (a>b);
+// //   {"b est plus grand que a"}
+// //   return;
+// // }
+
+
+// console.log((liste[2][3]));
+
+
+
+
+
+
+
+
+// let liste = [ "bob" , "emmanuel " , "bac",[25,56,58,78]];
+// alert(liste[1],[0]+[3][3]);
+// console.log((liste[3][3]));
+
+// alert( liste[1] +liste[3][3] );
+
+
+
+
+
+
+
+
+
+
+// let films = ["Le loup de Wall Street", "Vice-Versa", "Babysitting","bob" , "emmanuel " , "bac",[25,56,58,78]];
+
+// films.forEach(function (film) {
+
+//   if (typeof film === "object") {
+//     film.forEach(function (chiffre) {
+//       console.log(chiffre);
+//     })
+//   } else {
+//       console.log(film);
+//   }
+// });
+
+
+
+
+// let tablo=[1,2,3];
+// tablo.splice(0,0,0);
+// tablo.splice(5,0,4);
+// // tablo.splice(6,0,7);
+// tablo.splice(0,1,'a');
+// tablo.forEach(function (table){
+//   console.log(table)
+// });
+
+
+
+
+// let sequence= [11, 3, 7, 2, 9, 10];
+// let somme = 0;
+// for (let i = 0; i < sequence.length; i++) {
+//   somme += sequence[i];  
+// }
+//   console.log(somme);
+
+
+
+
+// let mousq = ["Athos", "Porthos" , "Aramis"]
+//  for (let i = 0; i < mousq.length; i++)
+//    console.log(mouss); 
+// });
+
+
+
+
+
+// let nombres = [11, 3, 7, 2, 9, 10];
+// let s = nombres[0];
+// for (let i = 0; i < nombres.length; i++)
+//   {
+//   if (nombre[i] > s) {
+//       s = nombres[i];
+//       }
+// }
+
+
+//     console.log(s); 
+
+
+// let word =prompt("ecrit");
+// let table=[];
+// while(word!=="stop"){
+//   table.push(word);
+//   word =prompt("ecrit");  
+// }
+// console.log(table)
+
+// let heroes=["superman", "batman","superman"]
+// alert(heroes[1]);
+
+// let livre={
+//   titre:"don juan",
+//   auteur:"molier"
+// };
+
+// console.log(livre.auteur)
+
+
+// let chien={
+//   nom:"rex",
+//   race:"pitbulle",
+//   taille:"60 ",
+//   aboyer: function () {
+//         return("Wouaf ! Wouaf !");
+//     }
+// };
+
+
+
+
+//  console.log(chien.nom + " est un " + chien.race + " mesurant " + chien.taille + " cm");
+// console.log("Tiens, un chat ! " + chien.nom + " aboie : " + chien.aboyer());
+
+
+// * EXERCICE 2: les objets 
+// * Complétez le programme pour ajouter à l'objet aurora défini 
+// * une propriété nommée xp représentant son expérience. 
+// * Sa valeur initiale est de 0.
+// * L'expérience doit apparaître dans la description du personnage.
+// */
+
+// Ajoutez votre code ici
+
+let aurora = {
+  decrire: function () {
+    return "Aurora a 150 points de vie, 25 en force et 0 points d'expérience";
+  }
+}
+
+
+// "Aurora a 150 points de vie, 25 en force et 0 points d'expérience"
+console.log(aurora.decrire());
+
+// console.log("Aurora apprend une nouvelle compétence");
+// aurora.xp += 15;
+
+// // "Aurora a 150 points de vie, 25 en force et 15 points d'expérience"
+// console.log(aurora.decrire());
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
