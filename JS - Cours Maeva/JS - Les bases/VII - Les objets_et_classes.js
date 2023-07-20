@@ -197,7 +197,7 @@ class Vehicule {
         return "Vroommmm !";
     }
 }
-
+// "this.prix="true"", veut dire que tout mes classe creeer auront le mm prix
 // Pour créer un objet à partir d'une classe on fait une instanciation de cette classe grâce à l'opérateur new
 // On crée ainsi l'objet voiture1 qui est une instance de la classe Vehicule
 
@@ -217,7 +217,6 @@ Voici ce qu'elle contient :
 
 console.log(voiture1.marque);
 console.log(voiture1.acceleration());
-
 
 
 

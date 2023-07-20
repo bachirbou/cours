@@ -36,6 +36,18 @@ console.log("Tiens, un chat ! " + chien.nom + " aboie : " + chien.aboyer());
 */
 
 // Ajoutez votre code ici
+let aurora = {
+    pdv: 150,
+    force: 25,
+    xp: 0,
+    nom: "Aurora",
+    decrire: function () {
+        // return this
+        return this.nom + " a " + this.pdv + " points de vie, " + this.force + " en force et " + this.xp + " points d'expérience ";
+    }
+}
+
+// this recupere directement les element a l'interieur, remplace "aurora"
 
 // "Aurora a 150 points de vie, 25 en force et 0 points d'expérience"
 console.log(aurora.decrire());
@@ -58,6 +70,28 @@ console.log(aurora.decrire());
 */
 
 // Ajoutez votre code ici
+
+class Chien {
+    constructor(arg1, arg2, arg3) {
+        this.nom = arg1;
+        this.race = arg2;
+        this.taille = arg3;
+    }
+
+    aboyer() {
+        if (this.taille > 50) {
+            return "Grrr ! Grrr !";
+        } else {
+            return "Wouaf ! Wouaf !";
+        }
+
+    }
+
+    decrire() {
+        return this.nom + " est un " + this.race + " mesurant " + this.taille + " cm ";
+    }
+}
+
 
 let crockdur = new Chien("Crockdur", "mâtin de Naples", 75);
 // "Crockdur est un mâtin de Naples mesurant 75 cm"
@@ -86,6 +120,19 @@ console.log("Tiens, un chat ! " + milou.nom + " aboie : " + milou.aboyer());
 */
 
 // Ajoutez votre code ici
+
+class Perso {
+    constructor(a, z, e,){
+        this.nom = a;
+        this.pdv = z;
+        this.force= 25;
+        this.xp=e;
+        this.inventaire={
+            cles=,
+            or=,
+        };
+    }
+}
 
 // "Aurora a 150 points de vie, 25 en force et 0 points d'expérience, 10 pièces d'or et 1 clé(s)"
 let aurora = new Personnage("Aurora", 150, 25);
