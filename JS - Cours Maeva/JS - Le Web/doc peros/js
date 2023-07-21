@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>JS Bin</title>
+</head>
+<body>
+
+  <div id="main">
+
+    <ul>
+        <li>Elément 1</li>
+        <li>Elément 2</li>
+    </ul>
+  </div>
+
+<script>
+    let text1 = "<div>beforebegin</div>";
+    let text2 = "<div>afterbegin</div>";
+    let text3 = "<div>beforeend</div>";
+    let text4 = "<div>afterend </div>";
+
+    document.getElementById("main").insertAdjacentHTML("beforebegin", text1);
+    document.getElementById("main").insertAdjacentHTML("afterbegin", text2);
+    document.getElementById("main").insertAdjacentHTML("beforeend", text3);
+    document.getElementById("main").insertAdjacentHTML("afterend", text4);
+</script>
+</body>
+</html>
+
+
+
+
+
+<!--
+   let paragraphe = document.createElement("p");
+
+let p = document.getElementById("main").appendChild(paragraphe);
+
+paragraphe.innerHTML=" Mon <strong>grand</strong> contenu";
+
+paragraphe.className = "important";
+
+paragraphe.style.color = "green"; 
+
+-->
