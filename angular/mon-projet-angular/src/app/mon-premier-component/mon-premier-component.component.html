@@ -1,0 +1,9 @@
+<li class="list-group-item">
+  <!-- <div style="width:20px; height: 20px;background-color: green;" *ngIf="persoStatus === 'Présent'"></div> -->
+  <div
+  style="width: 20px; height: 20px;"
+  [ngStyle]="{ background: getColor() }"
+  ></div>
+  <p>Etudiant : {{ persoName }} -- Statut : {{ getStatus()}}</p>
+  <!-- <input type="text" class="form-control" [(ngModel)]="persoName"> -->
+</li>
