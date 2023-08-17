@@ -1,0 +1,7 @@
+{
+  "name": "instanGram",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

@@ -1,0 +1,135 @@
+header{
+    text-align: center;
+}
+
+
+body{
+    width: 40%;
+    margin: auto;
+}
+
+ul{
+    margin: 10px 30px;
+    width: 100%;
+    margin-left: 150px;
+    /* list-style-type: none; */
+}
+
+ul li{
+    float: left;
+    text-align: center;
+}
+
+ul li a{
+    display: block;
+    width: 100px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+
+
+/* zone entre la NAV et les "section" */
+.top{
+    margin-top: 100px;
+}
+
+.assiette{
+    width: 48%;
+    display: flex;
+}
+
+.exemple{
+    display: flex;
+    width: 50%;
+    float: right;
+}
+
+
+/* class pour passer certain texte en italix */
+.ita{
+    font-style: italic
+}
+
+
+/* taille des section */
+section{
+    width: 100%;
+}
+
+/* zone pour les notes */
+.note{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    width: 220px;
+}
+
+
+/* taille des étoiles */
+i{
+    font-size: 13px;
+}
+
+.ligne{
+    display: flex;
+}
+
+
+/* 1ere ligne  */
+.salle{
+    width: 64%;
+}
+
+.salleimg{
+    width: 100%;
+    display: flex;
+}
+
+
+/* 2eme ligne */
+.service{
+    width: 64%;
+}
+
+.serviceimg{
+    width: 95%;
+    display: flex;
+}
+
+
+/* 3eme ligne */
+.dressage{
+    width: 64%;
+}
+
+.dressageimg{
+    width: 100%;
+}
+
+
+/* logo du footer */
+.diams{
+    background-image: url("../img/plan.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 150px;
+    text-align: center;
+    line-height: 150px
+}
+
+
+/* taille des HR */
+footer hr{
+    width: 500px;
+}
+
+
+/* centrer les textes du footer */
+footer{
+    text-align: center;
+}
+
+
+
+

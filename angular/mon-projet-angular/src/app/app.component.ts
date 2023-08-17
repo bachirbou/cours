@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { DataService } from './data.service';
 
 @Component({
   selector: 'app-root',
@@ -12,19 +13,17 @@ export class AppComponent {
   onClique() {
     alert('Cliqué !');
   }
-presenceTab = [
-  {
-    name: 'Emmanuelle',
-    status: 'Présent'
-  },
-  {
-    name: 'Robin',
-    status: 'Absent'
-  },
-  {
-    name: 'Dominique',
-    status: 'Présent'
+  persoOne = 'Adrien';
+  persoTwo =  'Guillaume';
+  persoThree = 'Stephane';
+  Present = 'Présent';
+  Absent = 'Absent';
+  presenceTab: any[];
+
+
+  constructor(private dataservice:DataService) {}
+  ngOnInit(){
+    this.presenceTab = this.dataservice.presenceTab;
   }
-];
 
 }
